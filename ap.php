@@ -1,5 +1,4 @@
 <?php
-
 	/**
 	 * Ajax endpoint for getting luas (dublin light rail), times and geo-coded data.
 	 *
@@ -26,9 +25,9 @@
 	 * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 	 * POSSIBILITY OF SUCH DAMAGE.
 	 *
-	 * @author     Neil Cremins <neilcremins@gmail.com>
-	 * @version    1.0
-	 * @link       http://www.neilcremins.com/
+	 * @author 	Neil Cremins <neilcremins@gmail.com>
+	 * @version 1.0
+	 * @link 	http://www.neilcremins.com/
 	 *
 	 */
 
@@ -49,56 +48,56 @@
 	$station 	= $_GET['station'];
 	
 	$stations = array(
-		  "st-stephens-green"       => urlencode("St. Stephen's Green")
-		, "harcourt"                => "Harcourt" 
-		, "charlemont"              => "Charlemont" 
-		, "ranelagh"                => "Ranelagh" 
-		, "beechwood"               => "Beechwood" 
-		, "cowper"                  => "Cowper" 
-		, "milltown"                => "Milltown" 
-		, "windy-arbour"            => urlencode("Windy Arbour") 
-		, "dundrum"                 => "Dundrum" 
-		, "balally"                 => "Balally" 
-		, "kilmacud"                => "Kilmacud" 
-		, "stillorgan"              => "Stillorgan" 
-		, "sandyford"               => "Sandyford" 
-		, "central-park"            => urlencode("Central Park") 
-		, "glencalm"                => "Glencairn" 
-		, "the-gallops"             => urlencode("The Gallops") 
-		, "leopardstown-valley"     => urlencode("Leopardstown Valley")
-		, "ballyogan-wood"          => urlencode("Ballyogan Wood") 
-		, "carrickmines"            => "Carrickmines" 
-		, "laughanstown"            => "Laughanstown" 
-		, "cherrywood"              => "Cherrywood" 
-		, "brides-glen"             => urlencode("Brides Glen")
+		  "st-stephens-green"		=> urlencode("St. Stephen's Green")
+		, "harcourt"				=> "Harcourt" 
+		, "charlemont"				=> "Charlemont" 
+		, "ranelagh"				=> "Ranelagh" 
+		, "beechwood"				=> "Beechwood" 
+		, "cowper"					=> "Cowper" 
+		, "milltown"				=> "Milltown" 
+		, "windy-arbour"			=> urlencode("Windy Arbour") 
+		, "dundrum"					=> "Dundrum" 
+		, "balally"					=> "Balally" 
+		, "kilmacud"				=> "Kilmacud" 
+		, "stillorgan"				=> "Stillorgan" 
+		, "sandyford"				=> "Sandyford" 
+		, "central-park"			=> urlencode("Central Park") 
+		, "glencalm"				=> "Glencairn" 
+		, "the-gallops"				=> urlencode("The Gallops") 
+		, "leopardstown-valley"		=> urlencode("Leopardstown Valley")
+		, "ballyogan-wood"			=> urlencode("Ballyogan Wood") 
+		, "carrickmines"			=> "Carrickmines" 
+		, "laughanstown"			=> "Laughanstown" 
+		, "cherrywood"				=> "Cherrywood" 
+		, "brides-glen"				=> urlencode("Brides Glen")
 		// red line
-		, "the-point"           	=> urlencode("The Point")
-		, "spencer-dock"        	=> urlencode("Spencer Dock") 
-		, "mayor-square-nci"    	=> urlencode("Mayor Square - NCI")
-		, "georges-dock"        	=> urlencode("George's Dock")
+		, "the-point"				=> urlencode("The Point")
+		, "spencer-dock"			=> urlencode("Spencer Dock") 
+		, "mayor-square-nci"		=> urlencode("Mayor Square - NCI")
+		, "georges-dock"			=> urlencode("George's Dock")
 		, "busaras"					=> "Bus%E1ras" // flithy hack
-		, "connolly"            	=> "Connolly"
-		, "abbey-street"        	=> urlencode("Abbey Street") 
-		, "jervis"              	=> "Jervis"
-		, "the-four-courts"     	=> urlencode("Four Courts")
-		, "smithfield"          	=> "Smithfield" 
-		, "museum"              	=> "Museum" 
-		, "heuston"             	=> "Heuston" 
-		, "jamess"              	=> urlencode("James's") 
-		, "fatima"              	=> "Fatima" 
-		, "rialto"              	=> "Rialto" 
-		, "suir-road"           	=> urlencode("Suir Road") 
-		, "goldenbridge"        	=> "Goldenbridge" 
-		, "drimnagh"            	=> "Drimnagh" 
-		, "blackhorse"          	=> "Blackhorse" 
-		, "bluebell"            	=> "Bluebell" 
-		, "kylemore"            	=> "Kylemore" 
-		, "red-cow"             	=> urlencode("Red Cow") 
-		, "kingswood"           	=> "Kingswood" 
-		, "belgard"             	=> "Belgard" 
-		, "cookstown"           	=> "Cookstown" 
-		, "hospital"            	=> "Hospital" 
-		, "tallaght"            	=> "Tallaght"
+		, "connolly"				=> "Connolly"
+		, "abbey-street"			=> urlencode("Abbey Street") 
+		, "jervis"					=> "Jervis"
+		, "the-four-courts"			=> urlencode("Four Courts")
+		, "smithfield"				=> "Smithfield" 
+		, "museum"					=> "Museum" 
+		, "heuston"					=> "Heuston" 
+		, "jamess"					=> urlencode("James's") 
+		, "fatima"					=> "Fatima" 
+		, "rialto"					=> "Rialto" 
+		, "suir-road"				=> urlencode("Suir Road") 
+		, "goldenbridge"			=> "Goldenbridge" 
+		, "drimnagh"				=> "Drimnagh" 
+		, "blackhorse"				=> "Blackhorse" 
+		, "bluebell"				=> "Bluebell" 
+		, "kylemore"				=> "Kylemore" 
+		, "red-cow"					=> urlencode("Red Cow") 
+		, "kingswood"				=> "Kingswood" 
+		, "belgard"					=> "Belgard" 
+		, "cookstown"				=> "Cookstown" 
+		, "hospital"				=> "Hospital" 
+		, "tallaght"				=> "Tallaght"
 		, "fettercairn"				=> "Fettercairn"
 		, "cheeverstown"			=> "Cheeverstown"
 		, "citywest-campus"			=> urlencode("Citywest Campus")
@@ -106,57 +105,56 @@
 		, "saggart"					=> "Saggart"
 	);
 	
-	
 	$gps = array(
-		  "st-stephens-green"       => array(53.339605, -6.26128) 
-		, "harcourt"                => array(53.333551, -6.26290) 
-		, "charlemont"              => array(53.330681, -6.25880) 
-		, "ranelagh"                => array(53.326266, -6.25636)
-		, "beechwood"               => array(53.320845, -6.25486)
-		, "cowper"                  => array(53.309839, -6.25174)
-		, "milltown"                => array(53.309839, -6.25174)
-		, "windy-arbour"            => array(53.293798, -6.24699) 
-		, "dundrum"                 => array(53.293798, -6.24699)
-		, "balally"                 => array(53.286102, -6.23679)
-		, "kilmacud"                => array(53.282997, -6.223969)
-		, "stillorgan"              => array(53.279347, -6.210156)
-		, "sandyford"               => array(53.277596, -6.204679)
-		, "central-park"            => array(53.270321, -6.203531)
-		, "glencalm"                => array(53.266313, -6.210161)
-		, "the-gallops"             => array(53.262109, -6.208775)
-		, "leopardstown-valley"     => array(53.257996, -6.197485)
-		, "ballyogan-wood"          => array(53.255901, -6.188200)
-		, "carrickmines"            => array(53.254518, -6.172085)
-		, "laughanstown"            => array(53.250955, -6.156045)
-		, "cherrywood"              => array(53.247832, -6.14845)
-		, "brides-glen"             => array(53.242160, -6.142961)
-		, "the-point"        		=> array(53.34834, -6.22962)
-		, "spencer-dock"     		=> array(53.34882, -6.23718)
-		, "mayor-square-nci" 		=> array(53.34933, -6.24355)
-		, "georges-dock"     		=> array(53.34961, -6.24807)
-		, "connolly"         		=> array(53.351499, -6.24993)
-		, "bus aras"         		=> array(53.350289, -6.25277)
-		, "abbey-street"     		=> array(53.348588, -6.258371)
-		, "jervis"           		=> array(53.347669, -6.26609)
-		, "the-four-courts"  		=> array(53.346824, -6.27291)
-		, "smithfield"       		=> array(53.347259, -6.27860)
-		, "museum"           		=> array(53.347842, -6.28673)
-		, "heuston"          		=> array(53.346388, -6.29223)
-		, "jamess"           		=> array(53.342033, -6.29384)
-		, "fatima"           		=> array(53.338350, -6.29277)
-		, "rialto"           		=> array(53.337869, -6.29750)
-		, "suir-road"        		=> array(53.33664, -6.30733)
-		, "goldenbridge"     		=> array(53.335857, -6.31366)
-		, "drimnagh"         		=> array(53.335383, -6.31833)
-		, "blackhorse"       		=> array(53.334192, -6.32793)
-		, "bluebell"         		=> array(53.32930, -6.33396)
-		, "kylemore"         		=> array(53.32649, -6.34390)
-		, "red-cow"          		=> array(53.31666, -6.36939)
-		, "kingswood"        		=> array(53.30247, -6.36862)
-		, "belgard"          		=> array(53.29874, -6.37450)
-		, "cookstown"        		=> array(53.294253, -6.38623)
-		, "hospital"         		=> array(53.289591, -6.37930)
-		, "tallaght"        		=> array(53.28771, -6.37359)
+		  "st-stephens-green"		=> array(53.339605, -6.26128) 
+		, "harcourt"				=> array(53.333551, -6.26290) 
+		, "charlemont"				=> array(53.330681, -6.25880) 
+		, "ranelagh"				=> array(53.326266, -6.25636)
+		, "beechwood"				=> array(53.320845, -6.25486)
+		, "cowper"					=> array(53.309839, -6.25174)
+		, "milltown"				=> array(53.309839, -6.25174)
+		, "windy-arbour"			=> array(53.293798, -6.24699) 
+		, "dundrum"					=> array(53.293798, -6.24699)
+		, "balally"					=> array(53.286102, -6.23679)
+		, "kilmacud"				=> array(53.282997, -6.223969)
+		, "stillorgan"				=> array(53.279347, -6.210156)
+		, "sandyford"				=> array(53.277596, -6.204679)
+		, "central-park"			=> array(53.270321, -6.203531)
+		, "glencalm"				=> array(53.266313, -6.210161)
+		, "the-gallops"				=> array(53.262109, -6.208775)
+		, "leopardstown-valley"		=> array(53.257996, -6.197485)
+		, "ballyogan-wood"			=> array(53.255901, -6.188200)
+		, "carrickmines"			=> array(53.254518, -6.172085)
+		, "laughanstown"			=> array(53.250955, -6.156045)
+		, "cherrywood"				=> array(53.247832, -6.14845)
+		, "brides-glen"				=> array(53.242160, -6.142961)
+		, "the-point"				=> array(53.34834, -6.22962)
+		, "spencer-dock"			=> array(53.34882, -6.23718)
+		, "mayor-square-nci"		=> array(53.34933, -6.24355)
+		, "georges-dock"			=> array(53.34961, -6.24807)
+		, "connolly"				=> array(53.351499, -6.24993)
+		, "bus aras"				=> array(53.350289, -6.25277)
+		, "abbey-street"			=> array(53.348588, -6.258371)
+		, "jervis"					=> array(53.347669, -6.26609)
+		, "the-four-courts"			=> array(53.346824, -6.27291)
+		, "smithfield"				=> array(53.347259, -6.27860)
+		, "museum"					=> array(53.347842, -6.28673)
+		, "heuston"					=> array(53.346388, -6.29223)
+		, "jamess"					=> array(53.342033, -6.29384)
+		, "fatima"					=> array(53.338350, -6.29277)
+		, "rialto"					=> array(53.337869, -6.29750)
+		, "suir-road"				=> array(53.33664, -6.30733)
+		, "goldenbridge"			=> array(53.335857, -6.31366)
+		, "drimnagh"				=> array(53.335383, -6.31833)
+		, "blackhorse"				=> array(53.334192, -6.32793)
+		, "bluebell"				=> array(53.32930, -6.33396)
+		, "kylemore"				=> array(53.32649, -6.34390)
+		, "red-cow"					=> array(53.31666, -6.36939)
+		, "kingswood"				=> array(53.30247, -6.36862)
+		, "belgard"					=> array(53.29874, -6.37450)
+		, "cookstown"				=> array(53.294253, -6.38623)
+		, "hospital"				=> array(53.289591, -6.37930)
+		, "tallaght"				=> array(53.28771, -6.37359)
 		, "fettercairn"				=> array(53.29395, -6.3957)
 		, "cheeverstown"			=> array(53.29103, -6.40760)
 		, "citywest-campus"			=> array(53.28781, -6.42022)
@@ -177,7 +175,6 @@
 			exit;
 		}
 	}
-
 
 	switch($action)
 	{
@@ -205,8 +202,8 @@
 			$yqlQueryUrl = $yqlBaseUrl . "?q=" . urlencode($yqlQuery) . "&format=json";
 
 			$session = curl_init($yqlQueryUrl);
-			curl_setopt($session, CURLOPT_RETURNTRANSFER, true);    
-			$json = curl_exec($session);    
+			curl_setopt($session, CURLOPT_RETURNTRANSFER, true);	
+			$json = curl_exec($session);	
 				
 			$obj = json_decode($json);
 								
@@ -252,7 +249,7 @@
 					}
 				}
 					
-				$i++;    
+				$i++;	
 			}
 								
 			$times['inbound'] = $inboundTimes;
@@ -273,3 +270,4 @@
 			exit;
 		}
 	}
+?>
