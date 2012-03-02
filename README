@@ -2,6 +2,8 @@ Endpoint for getting luas (dublin light rail), times and geo-coded data.
 
 Updated to include the newer stops on red line.
 
+This endpoint relies on http://www.luas.ie and may break at any time, I will try my best to keep it updated.
+
 Example #1: get times of next luas in both directions.
 
 ap.php?action=gettimes&station=leopardstown-valley
