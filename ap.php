@@ -62,7 +62,7 @@
         , "stillorgan"              => "Stillorgan" 
         , "sandyford"               => "Sandyford" 
         , "central-park"            => urlencode("Central Park") 
-        , "glencalm"                => "Glencairn" 
+        , "glencairn"                => "Glencairn" 
         , "the-gallops"             => urlencode("The Gallops") 
         , "leopardstown-valley"     => urlencode("Leopardstown Valley")
         , "ballyogan-wood"          => urlencode("Ballyogan Wood") 
@@ -120,7 +120,7 @@
         , "stillorgan"              => array(53.279347, -6.210156)
         , "sandyford"               => array(53.277596, -6.204679)
         , "central-park"            => array(53.270321, -6.203531)
-        , "glencalm"                => array(53.266313, -6.210161)
+        , "glencairn"                => array(53.266313, -6.210161)
         , "the-gallops"             => array(53.262109, -6.208775)
         , "leopardstown-valley"     => array(53.257996, -6.197485)
         , "ballyogan-wood"          => array(53.255901, -6.188200)
