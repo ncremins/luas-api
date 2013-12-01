@@ -4,7 +4,9 @@ Updated to use a more simpler way of grabbing data from luas' endpoint.
 
 This endpoint relies on http://www.luas.ie API endpoint and may break at any time, I will try my best to keep it updated.
 
-Example #1: get times of next luas in both directions.
+A working example can be seen [here](www.neilcremins.com/luas/v2/index.php?action=stations) and [here](www.neilcremins.com/luas/v2/index.php?action=times&stations=STS)
+
+Example #1: Get times of next luas in both directions.
 
 index.php?action=**times**&station=**STS**
 
@@ -28,7 +30,7 @@ Result:
 ```
 
 
-Example #2: Get the list of stations including GPS / Park & Ride / Cycle Racks information.
+Example #2: Get the list of stations including GPS coordinates / Park & Ride / Cycle Racks information.
 
 index.php?action=**stations**
 
