@@ -4,7 +4,7 @@ Updated to use a more simpler way of grabbing data from luas' endpoint.
 
 This endpoint relies on http://www.luas.ie API endpoint and may break at any time, I will try my best to keep it updated.
 
-A working example can be seen [here](www.neilcremins.com/luas/v2/index.php?action=stations) and [here](www.neilcremins.com/luas/v2/index.php?action=times&stations=STS)
+A working example can be seen [here](http://www.neilcremins.com/luas/v2/index.php?action=stations) and [here](http://www.neilcremins.com/luas/v2/index.php?action=times&stations=STS)
 
 Example #1: Get times of next luas in both directions.
 
