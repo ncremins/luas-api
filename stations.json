@@ -1,0 +1,598 @@
+{
+	"stations": [
+		{
+			"shortName": "STS",
+			"displayName": "St. Stephen's Green",
+			"line": "Green",
+			"cycle": 0,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.339072,
+				"longitude": -6.261333
+			}
+		},
+		{
+			"shortName": "HAR",
+			"displayName": "Harcourt Street",
+			"line": "Green",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.333358,
+				"longitude": -6.262650
+			}
+		},
+		{
+			"shortName": "CHA",
+			"displayName": "Charlemont",
+			"line": "Green",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.330669,
+				"longitude": -6.258683
+			}
+		},
+		{
+			"shortName": "RAN",
+			"displayName": "Ranelagh",
+			"line": "Green",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.326433,
+				"longitude": -6.256203
+			}
+		},
+		{
+			"shortName": "BEE",
+			"displayName": "Beechwood",
+			"line": "Green",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.320822,
+				"longitude": -6.254653
+			}
+		},
+		{
+			"shortName": "COW",
+			"displayName": "Cowper",
+			"line": "Green",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.316467,
+				"longitude": -6.253447
+			}
+		},
+		{
+			"shortName": "MIL",
+			"displayName": "Milltown",
+			"line": "Green",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.309917,
+				"longitude": -6.251728
+			}
+		},
+		{
+			"shortName": "WIN",
+			"displayName": "Windy Arbour",
+			"line": "Green",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.301558,
+				"longitude": -6.250708
+			}
+		},
+		{
+			"shortName": "DUN",
+			"displayName": "Dundrum",
+			"line": "Green",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.292358,
+				"longitude": -6.245117
+			}
+		},
+		{
+			"shortName": "BAL",
+			"displayName": "Balally",
+			"line": "Green",
+			"cycle": 1,
+			"car": 1,
+			"coordinates": {
+				"latitude": 53.286106,
+				"longitude": -6.236772
+			}
+		},
+		{
+			"shortName": "KIL",
+			"displayName": "Kilmacud",
+			"line": "Green",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.283008,
+				"longitude": -6.223886
+			}
+		},
+		{
+			"shortName": "STI",
+			"displayName": "Stillorgan",
+			"line": "Green",
+			"cycle": 1,
+			"car": 1,
+			"coordinates": {
+				"latitude": 53.279311,
+				"longitude": -6.209919
+			}
+		},
+		{
+			"shortName": "SAN",
+			"displayName": "Sandyford",
+			"line": "Green",
+			"cycle": 1,
+			"car": 1,
+			"coordinates": {
+				"latitude": 53.279311,
+				"longitude": -6.204678
+			}
+		},
+		{
+			"shortName": "CPK",
+			"displayName": "Central Park",
+			"line": "Green",
+			"cycle": 0,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.270150,
+				"longitude": -6.203764
+			}
+		},
+		{
+			"shortName": "GLE",
+			"displayName": "Glencairn",
+			"line": "Green",
+			"cycle": 1,
+			"car": 1,
+			"coordinates": {
+				"latitude": 53.266336,
+				"longitude": -6.209942
+			}
+		},
+		{
+			"shortName": "GAL",
+			"displayName": "The Gallops",
+			"line": "Green",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.261164,
+				"longitude": -6.206022
+			}
+		},
+		{
+			"shortName": "LEO",
+			"displayName": "Leopardstown Valley",
+			"line": "Green",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.257996,
+				"longitude": -6.197485
+			}
+		},
+		{
+			"shortName": "BAW",
+			"displayName": "Ballyogan Wood",
+			"line": "Green",
+			"cycle": 0,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.255047,
+				"longitude": -6.184475
+			}
+		},
+		{
+			"shortName": "CCK",
+			"displayName": "Carrickmines",
+			"line": "Green",
+			"cycle": 1,
+			"car": 1,
+			"coordinates": {
+				"latitude": 53.254033,
+				"longitude": -6.169908
+			}
+		},
+		{
+			"shortName": "LAU",
+			"displayName": "Laughanstown",
+			"line": "Green",
+			"cycle": 0,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.250606,
+				"longitude": -6.155006
+			}
+		},
+		{
+			"shortName": "CHE",
+			"displayName": "Cherrywood",
+			"line": "Green",
+			"cycle": 0,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.245333,
+				"longitude": -6.145853
+			}
+		},
+		{
+			"shortName": "BRI",
+			"displayName": "Brides Glen",
+			"line": "Green",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.242075,
+				"longitude": -6.142886
+			}
+		},
+		{
+			"shortName": "TPT",
+			"displayName": "The Point",
+			"line": "Red",
+			"cycle": 0,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.348350,
+				"longitude": -6.229258
+			}
+		},
+		{
+			"shortName": "SDK",
+			"displayName": "Spencer Dock",
+			"line": "Red",
+			"cycle": 0,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.348822,
+				"longitude": -6.237147
+			}
+		},
+		{
+			"shortName": "MYS",
+			"displayName": "Mayor Square (NCI)",
+			"line": "Red",
+			"cycle": 0,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.349247,
+				"longitude": -6.243394
+			}
+		},
+		{
+			"shortName": "GDK",
+			"displayName": "George's Dock",
+			"line": "Red",
+			"cycle": 0,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.349528,
+				"longitude": -6.247575
+			}
+		},
+		{
+			"shortName": "CON",
+			"displayName": "Connolly",
+			"line": "Red",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.350922,
+				"longitude": -6.249942
+			}
+		},
+		{
+			"shortName": "BUS",
+			"displayName": "Bus Áras",
+			"line": "Red",
+			"cycle": 0,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.348589,
+				"longitude": -6.258172
+			}
+		},
+		{
+			"shortName": "ABB",
+			"displayName": "Abbey Street",
+			"line": "Red",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.348589,
+				"longitude": -6.258172
+			}
+		},
+		{
+			"shortName": "JER",
+			"displayName": "Jervis",
+			"line": "Red",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.347686,
+				"longitude": -6.265333
+			}
+		},
+		{
+			"shortName": "FOU",
+			"displayName": "The Four Courts",
+			"line": "Red",
+			"cycle": 0,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.346864,
+				"longitude": -6.273436
+			}
+		},
+		{
+			"shortName": "SMI",
+			"displayName": "Smithfield",
+			"line": "Red",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.347133,
+				"longitude": -6.277728
+			}
+		},
+		{
+			"shortName": "MUS",
+			"displayName": "Museum",
+			"line": "Red",
+			"cycle": 0,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.347867,
+				"longitude": -6.286714
+			}
+		},
+		{
+			"shortName": "HEU",
+			"displayName": "Heuston",
+			"line": "Red",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.346647,
+				"longitude": -6.291808
+			}
+		},
+		{
+			"shortName": "JAM",
+			"displayName": "James'",
+			"line": "Red",
+			"cycle": 0,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.341942,
+				"longitude": -6.293361
+			}
+		},
+		{
+			"shortName": "FAT",
+			"displayName": "Fatima",
+			"line": "Red",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.338439,
+				"longitude": -6.292547
+			}
+		},
+		{
+			"shortName": "RIA",
+			"displayName": "Rialto",
+			"line": "Red",
+			"cycle": 0,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.337908,
+				"longitude": -6.297242
+			}
+		},
+		{
+			"shortName": "SUI",
+			"displayName": "Suir Road",
+			"line": "Red",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.336617,
+				"longitude": -6.307211
+			}
+		},
+		{
+			"shortName": "GOL",
+			"displayName": "Goldenbridge",
+			"line": "Red",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.335892,
+				"longitude": -6.313569
+			}
+		},
+		{
+			"shortName": "DRI",
+			"displayName": "Drimnagh",
+			"line": "Red",
+			"cycle": 0,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.335361,
+				"longitude": -6.318161
+			}
+		},
+		{
+			"shortName": "BLA",
+			"displayName": "Blackhorse",
+			"line": "Red",
+			"cycle": 0,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.334258,
+				"longitude": -6.327394
+			}
+		},
+		{
+			"shortName": "BLU",
+			"displayName": "Bluebell",
+			"line": "Red",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.329297,
+				"longitude": -6.33396
+			}
+		},
+		{
+			"shortName": "KYL",
+			"displayName": "Kylemore",
+			"line": "Red",
+			"cycle": 0,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.326656,
+				"longitude": -6.343444
+			}
+		},
+		{
+			"shortName": "RED",
+			"displayName": "Red Cow",
+			"line": "Red",
+			"cycle": 1,
+			"car": 1,
+			"coordinates": {
+				"latitude": 53.316833,
+				"longitude": -6.369872
+			}
+		},
+		{
+			"shortName": "KIN",
+			"displayName": "Kingswood",
+			"line": "Red",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.303694,
+				"longitude": -6.365250
+			}
+		},
+		{
+			"shortName": "BEL",
+			"displayName": "Belgard",
+			"line": "Red",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.299286,
+				"longitude": -6.374886
+			}
+		},
+		{
+			"shortName": "COO",
+			"displayName": "Cookstown",
+			"line": "Red",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.293506,
+				"longitude": -6.384397
+			}
+		},
+		{
+			"shortName": "HOS",
+			"displayName": "Hospital",
+			"line": "Red",
+			"cycle": 0,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.289369,
+				"longitude": -6.378850
+			}
+		},
+		{
+			"shortName": "TAL",
+			"displayName": "Tallaght",
+			"line": "Red",
+			"cycle": 1,
+			"car": 1,
+			"coordinates": {
+				"latitude": 53.287494,
+				"longitude": -6.374589
+			}
+		},
+		{
+			"shortName": "FET",
+			"displayName": "Fettercairn",
+			"line": "Red",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.293519,
+				"longitude": -6.395554
+			}
+		},
+		{
+			"shortName": "CVN",
+			"displayName": "Cheeverstown",
+			"line": "Red",
+			"cycle": 1,
+			"car": 1,
+			"coordinates": {
+				"latitude": 53.290982,
+				"longitude": -6.406849
+			}
+		},
+		{
+			"shortName": "CIT",
+			"displayName": "Citywest Campus",
+			"line": "Red",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.287833,
+				"longitude": -6.418915
+			}
+		},
+		{
+			"shortName": "FOR",
+			"displayName": "Fortunestown",
+			"line": "Red",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.284251,
+				"longitude": -6.424602
+			}
+		},
+		{
+			"shortName": "SAG",
+			"displayName": "Saggart",
+			"line": "Red",
+			"cycle": 1,
+			"car": 0,
+			"coordinates": {
+				"latitude": 53.284679,
+				"longitude": -6.43776255
+			}
+		}
+	]
+}
