@@ -140,21 +140,25 @@
 			
 			$attribs = current($tram->attributes());
 
-			$timeEntry->dueMinutes = (string)$attribs['dueMins'];
-			$timeEntry->destination = (string)$attribs['destination']; 
-			$time->trams[] = $timeEntry;
+			if ($attribs['dueMins'] > 0) {
+				$timeEntry->dueMinutes = (string)$attribs['dueMins'];
+				$timeEntry->destination = (string)$attribs['destination'];
+				$time->trams[] = $timeEntry;
+			}
+			
 		}
 
 		foreach ($xml->direction[1]->tram as $key => $tram) {
 			$timeEntry = new stdClass();
 			$timeEntry->direction = "Outbound";
 			
-				$attribs = current($tram->attributes());
+			$attribs = current($tram->attributes());
 
+			if ($attribs['dueMins'] > 0) {
 				$timeEntry->dueMinutes = (string)$attribs['dueMins'];
 				$timeEntry->destination = (string)$attribs['destination'];
-
 				$time->trams[] = $timeEntry;
+			}
 		}
 
 		echo json_encode($time);
