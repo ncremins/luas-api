@@ -3,6 +3,7 @@
 		{
 			"shortName": "STS",
 			"displayName": "St. Stephen's Green",
+			"displayIrishName": "Faiche Stiabhna",
 			"line": "Green",
 			"cycle": 0,
 			"car": 0,
@@ -14,6 +15,7 @@
 		{
 			"shortName": "HAR",
 			"displayName": "Harcourt Street",
+			"displayIrishName": "Sráid Fhearchair",
 			"line": "Green",
 			"cycle": 1,
 			"car": 0,
@@ -25,6 +27,7 @@
 		{
 			"shortName": "CHA",
 			"displayName": "Charlemont",
+			"displayIrishName": "Charlemont",
 			"line": "Green",
 			"cycle": 1,
 			"car": 0,
@@ -36,6 +39,7 @@
 		{
 			"shortName": "RAN",
 			"displayName": "Ranelagh",
+			"displayIrishName": "Raghnallach",
 			"line": "Green",
 			"cycle": 1,
 			"car": 0,
@@ -47,6 +51,7 @@
 		{
 			"shortName": "BEE",
 			"displayName": "Beechwood",
+			"displayIrishName": "Coill na Feá",
 			"line": "Green",
 			"cycle": 1,
 			"car": 0,
@@ -58,6 +63,7 @@
 		{
 			"shortName": "COW",
 			"displayName": "Cowper",
+			"displayIrishName": "Cowper",
 			"line": "Green",
 			"cycle": 1,
 			"car": 0,
@@ -69,6 +75,7 @@
 		{
 			"shortName": "MIL",
 			"displayName": "Milltown",
+			"displayIrishName": "Baile an Mhuilinn",
 			"line": "Green",
 			"cycle": 1,
 			"car": 0,
@@ -80,6 +87,7 @@
 		{
 			"shortName": "WIN",
 			"displayName": "Windy Arbour",
+			"displayIrishName": "Na Glasáin",
 			"line": "Green",
 			"cycle": 1,
 			"car": 0,
@@ -91,6 +99,7 @@
 		{
 			"shortName": "DUN",
 			"displayName": "Dundrum",
+			"displayIrishName": "Dún Droma",
 			"line": "Green",
 			"cycle": 1,
 			"car": 0,
@@ -102,6 +111,7 @@
 		{
 			"shortName": "BAL",
 			"displayName": "Balally",
+			"displayIrishName": "Baile Amhlaoibh",
 			"line": "Green",
 			"cycle": 1,
 			"car": 1,
@@ -113,6 +123,7 @@
 		{
 			"shortName": "KIL",
 			"displayName": "Kilmacud",
+			"displayIrishName": "Cill Mochuda",
 			"line": "Green",
 			"cycle": 1,
 			"car": 0,
@@ -124,6 +135,7 @@
 		{
 			"shortName": "STI",
 			"displayName": "Stillorgan",
+			"displayIrishName": "Stigh Lorgan",
 			"line": "Green",
 			"cycle": 1,
 			"car": 1,
@@ -135,6 +147,7 @@
 		{
 			"shortName": "SAN",
 			"displayName": "Sandyford",
+			"displayIrishName": "Áth an Ghainimh",
 			"line": "Green",
 			"cycle": 1,
 			"car": 1,
@@ -146,6 +159,7 @@
 		{
 			"shortName": "CPK",
 			"displayName": "Central Park",
+			"displayIrishName": "An Pháirc Láir",
 			"line": "Green",
 			"cycle": 0,
 			"car": 0,
@@ -157,6 +171,7 @@
 		{
 			"shortName": "GLE",
 			"displayName": "Glencairn",
+			"displayIrishName": "Gleann an Chairn",
 			"line": "Green",
 			"cycle": 1,
 			"car": 1,
@@ -168,6 +183,7 @@
 		{
 			"shortName": "GAL",
 			"displayName": "The Gallops",
+			"displayIrishName": "An Eachrais",
 			"line": "Green",
 			"cycle": 1,
 			"car": 0,
@@ -179,6 +195,7 @@
 		{
 			"shortName": "LEO",
 			"displayName": "Leopardstown Valley",
+			"displayIrishName": "Gleann Bhaile na Lobhar",
 			"line": "Green",
 			"cycle": 1,
 			"car": 0,
@@ -190,6 +207,7 @@
 		{
 			"shortName": "BAW",
 			"displayName": "Ballyogan Wood",
+			"displayIrishName": "Coill Bhaile Uí Ógáin",
 			"line": "Green",
 			"cycle": 0,
 			"car": 0,
@@ -201,6 +219,7 @@
 		{
 			"shortName": "CCK",
 			"displayName": "Carrickmines",
+			"displayIrishName": "Carraig Mhaighin",
 			"line": "Green",
 			"cycle": 1,
 			"car": 1,
@@ -212,6 +231,7 @@
 		{
 			"shortName": "LAU",
 			"displayName": "Laughanstown",
+			"displayIrishName": "Baile an Locháin",
 			"line": "Green",
 			"cycle": 0,
 			"car": 0,
@@ -223,6 +243,7 @@
 		{
 			"shortName": "CHE",
 			"displayName": "Cherrywood",
+			"displayIrishName": "Coill na Silíní",
 			"line": "Green",
 			"cycle": 0,
 			"car": 0,
@@ -234,6 +255,7 @@
 		{
 			"shortName": "BRI",
 			"displayName": "Brides Glen",
+			"displayIrishName": "Gleann Bhríde",
 			"line": "Green",
 			"cycle": 1,
 			"car": 0,
@@ -245,6 +267,7 @@
 		{
 			"shortName": "TPT",
 			"displayName": "The Point",
+			"displayIrishName": "Iosta na Rinne",
 			"line": "Red",
 			"cycle": 0,
 			"car": 0,
@@ -256,6 +279,7 @@
 		{
 			"shortName": "SDK",
 			"displayName": "Spencer Dock",
+			"displayIrishName": "Duga Spencer",
 			"line": "Red",
 			"cycle": 0,
 			"car": 0,
@@ -267,6 +291,7 @@
 		{
 			"shortName": "MYS",
 			"displayName": "Mayor Square (NCI)",
+			"displayIrishName": "Cearnóg an Mhéara - CNÉ",
 			"line": "Red",
 			"cycle": 0,
 			"car": 0,
@@ -278,6 +303,7 @@
 		{
 			"shortName": "GDK",
 			"displayName": "George's Dock",
+			"displayIrishName": "Duga Sheoirse",
 			"line": "Red",
 			"cycle": 0,
 			"car": 0,
@@ -289,6 +315,7 @@
 		{
 			"shortName": "CON",
 			"displayName": "Connolly",
+			"displayIrishName": "Conghaile",
 			"line": "Red",
 			"cycle": 1,
 			"car": 0,
@@ -300,6 +327,7 @@
 		{
 			"shortName": "BUS",
 			"displayName": "Bus Áras",
+			"displayIrishName": "Busáras",
 			"line": "Red",
 			"cycle": 0,
 			"car": 0,
@@ -311,6 +339,7 @@
 		{
 			"shortName": "ABB",
 			"displayName": "Abbey Street",
+			"displayIrishName": "Sráid na Mainistreach",
 			"line": "Red",
 			"cycle": 1,
 			"car": 0,
@@ -322,6 +351,7 @@
 		{
 			"shortName": "JER",
 			"displayName": "Jervis",
+			"displayIrishName": "Jervis",
 			"line": "Red",
 			"cycle": 1,
 			"car": 0,
@@ -333,6 +363,7 @@
 		{
 			"shortName": "FOU",
 			"displayName": "The Four Courts",
+			"displayIrishName": "Na Ceithre Cúirteanna",
 			"line": "Red",
 			"cycle": 0,
 			"car": 0,
@@ -344,6 +375,7 @@
 		{
 			"shortName": "SMI",
 			"displayName": "Smithfield",
+			"displayIrishName": "Margadh na Feirme",
 			"line": "Red",
 			"cycle": 1,
 			"car": 0,
@@ -355,6 +387,7 @@
 		{
 			"shortName": "MUS",
 			"displayName": "Museum",
+			"displayIrishName": "Ard-Mhúsaem",
 			"line": "Red",
 			"cycle": 0,
 			"car": 0,
@@ -366,6 +399,7 @@
 		{
 			"shortName": "HEU",
 			"displayName": "Heuston",
+			"displayIrishName": "Heuston",
 			"line": "Red",
 			"cycle": 1,
 			"car": 0,
@@ -377,6 +411,7 @@
 		{
 			"shortName": "JAM",
 			"displayName": "James'",
+			"displayIrishName": "Ospidéal San Séamas",
 			"line": "Red",
 			"cycle": 0,
 			"car": 0,
@@ -388,6 +423,7 @@
 		{
 			"shortName": "FAT",
 			"displayName": "Fatima",
+			"displayIrishName": "Fatima",
 			"line": "Red",
 			"cycle": 1,
 			"car": 0,
@@ -399,6 +435,7 @@
 		{
 			"shortName": "RIA",
 			"displayName": "Rialto",
+			"displayIrishName": "Rialto",
 			"line": "Red",
 			"cycle": 0,
 			"car": 0,
@@ -410,6 +447,7 @@
 		{
 			"shortName": "SUI",
 			"displayName": "Suir Road",
+			"displayIrishName": "Bóthar na Siúire",
 			"line": "Red",
 			"cycle": 1,
 			"car": 0,
@@ -421,6 +459,7 @@
 		{
 			"shortName": "GOL",
 			"displayName": "Goldenbridge",
+			"displayIrishName": "An Droichead Órga",
 			"line": "Red",
 			"cycle": 1,
 			"car": 0,
@@ -432,6 +471,7 @@
 		{
 			"shortName": "DRI",
 			"displayName": "Drimnagh",
+			"displayIrishName": "Droimeanach",
 			"line": "Red",
 			"cycle": 0,
 			"car": 0,
@@ -443,6 +483,7 @@
 		{
 			"shortName": "BLA",
 			"displayName": "Blackhorse",
+			"displayIrishName": "An Capall Dubh",
 			"line": "Red",
 			"cycle": 0,
 			"car": 0,
@@ -454,6 +495,7 @@
 		{
 			"shortName": "BLU",
 			"displayName": "Bluebell",
+			"displayIrishName": "An Cloigín Gorm",
 			"line": "Red",
 			"cycle": 1,
 			"car": 0,
@@ -465,6 +507,7 @@
 		{
 			"shortName": "KYL",
 			"displayName": "Kylemore",
+			"displayIrishName": "An Chill Mhór",
 			"line": "Red",
 			"cycle": 0,
 			"car": 0,
@@ -476,6 +519,7 @@
 		{
 			"shortName": "RED",
 			"displayName": "Red Cow",
+			"displayIrishName": "An Bhó Dhearg",
 			"line": "Red",
 			"cycle": 1,
 			"car": 1,
@@ -487,6 +531,7 @@
 		{
 			"shortName": "KIN",
 			"displayName": "Kingswood",
+			"displayIrishName": "Coill an Rí",
 			"line": "Red",
 			"cycle": 1,
 			"car": 0,
@@ -498,6 +543,7 @@
 		{
 			"shortName": "BEL",
 			"displayName": "Belgard",
+			"displayIrishName": "Belgard",
 			"line": "Red",
 			"cycle": 1,
 			"car": 0,
@@ -509,6 +555,7 @@
 		{
 			"shortName": "COO",
 			"displayName": "Cookstown",
+			"displayIrishName": "Baile an Chócaigh",
 			"line": "Red",
 			"cycle": 1,
 			"car": 0,
@@ -520,6 +567,7 @@
 		{
 			"shortName": "HOS",
 			"displayName": "Hospital",
+			"displayIrishName": "Ospidéal Thamhlachta",
 			"line": "Red",
 			"cycle": 0,
 			"car": 0,
@@ -531,6 +579,7 @@
 		{
 			"shortName": "TAL",
 			"displayName": "Tallaght",
+			"displayIrishName": "Tamhlacht",
 			"line": "Red",
 			"cycle": 1,
 			"car": 1,
@@ -542,6 +591,7 @@
 		{
 			"shortName": "FET",
 			"displayName": "Fettercairn",
+			"displayIrishName": "Fothair Chardain",
 			"line": "Red",
 			"cycle": 1,
 			"car": 0,
@@ -553,6 +603,7 @@
 		{
 			"shortName": "CVN",
 			"displayName": "Cheeverstown",
+			"displayIrishName": "Baile an tSíbhrigh",
 			"line": "Red",
 			"cycle": 1,
 			"car": 1,
@@ -564,6 +615,7 @@
 		{
 			"shortName": "CIT",
 			"displayName": "Citywest Campus",
+			"displayIrishName": "Campas Gnó Iarthar na Cathrach",
 			"line": "Red",
 			"cycle": 1,
 			"car": 0,
@@ -575,6 +627,7 @@
 		{
 			"shortName": "FOR",
 			"displayName": "Fortunestown",
+			"displayIrishName": "Baile Uí Fhoirtcheirn",
 			"line": "Red",
 			"cycle": 1,
 			"car": 0,
@@ -586,6 +639,7 @@
 		{
 			"shortName": "SAG",
 			"displayName": "Saggart",
+			"displayIrishName": "Teach Sagard",
 			"line": "Red",
 			"cycle": 1,
 			"car": 0,
