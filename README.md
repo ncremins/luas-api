@@ -40,6 +40,7 @@ index.php?action=**stations**
 		{
 			"shortName": "STS",
 			"displayName": "St. Stephen's Green",
+			"displayIrishName": "Faiche Stiabhna",
 			"line": "Green",
 			"cycle": 0,
 			"car": 0,
@@ -51,6 +52,7 @@ index.php?action=**stations**
 		{
 			"shortName": "HAR",
 			"displayName": "Harcourt Street",
+			"displayIrishName": "Sráid Fhearchair",
 			"line": "Green",
 			"cycle": 1,
 			"car": 0,
@@ -62,6 +64,7 @@ index.php?action=**stations**
 		{
 			"shortName": "CHA",
 			"displayName": "Charlemont",
+			"displayIrishName": "Charlemont",
 			"line": "Green",
 			"cycle": 1,
 			"car": 0,
