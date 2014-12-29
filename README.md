@@ -1,12 +1,12 @@
-Endpoint for getting luas (dublin light rail), times and geo-coded data.
+Endpoint for getting Luas (Dublin light rail), times and geo-coded data.
 
-Updated to use a more simpler way of grabbing data from luas' endpoint.
+Updated to use a more simpler way of grabbing data from Luas' endpoint.
 
 This endpoint relies on http://www.luas.ie API endpoint and may break at any time, I will try my best to keep it updated.
 
 A working example can be seen [here](http://www.neilcremins.com/luas/v2/index.php?action=stations) and [here](http://www.neilcremins.com/luas/v2/index.php?action=times&station=STS)
 
-Example #1: Get times of next luas in both directions.
+Example #1: Get times of next Luas in both directions.
 
 index.php?action=**times**&station=**STS**
 
@@ -74,4 +74,47 @@ index.php?action=**stations**
 			}
 		},
 		...
+```
+
+
+Example #3: Get dummy times for trams in both directions. This is useful for testing purposes, particularly when services have stopped for the night. This data is always the same and is as below.
+
+index.php?action=**dummytimes**
+
+```javascript
+{
+    "message": "All services operating normally",
+    "trams": [
+        {
+            "destination": "Test Stop 1",
+            "direction": "Inbound",
+            "dueMinutes": "2"
+        },
+        {
+            "destination": "Test Stop 1",
+            "direction": "Inbound",
+            "dueMinutes": "8"
+        },
+        {
+            "destination": "Test Stop 1",
+            "direction": "Inbound",
+            "dueMinutes": "14"
+        },
+        {
+            "destination": "Test Stop 2",
+            "direction": "Outbound",
+            "dueMinutes": "4"
+        },
+        {
+            "destination": "Test Stop 2",
+            "direction": "Outbound",
+            "dueMinutes": "11"
+        },
+        {
+            "destination": "Test Stop 2",
+            "direction": "Outbound",
+            "dueMinutes": "18"
+        }
+    ]
+}
 ```
