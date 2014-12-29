@@ -106,6 +106,11 @@
 		getStationTimes($station);
 		exit;
 	}
+    else if ($action == 'dummytimes') {
+       $json = file_get_contents('dummytimes.json');
+        echo $json;
+        exit; 
+    }
 	else {
 		$error = new stdClass();
 		$error->message = "Unknown station";
