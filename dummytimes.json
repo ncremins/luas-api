@@ -1,0 +1,35 @@
+{
+    "message": "All services operating normally",
+    "trams": [
+        {
+            "destination": "Test Stop 1",
+            "direction": "Inbound",
+            "dueMinutes": "2"
+        },
+        {
+            "destination": "Test Stop 1",
+            "direction": "Inbound",
+            "dueMinutes": "8"
+        },
+        {
+            "destination": "Test Stop 1",
+            "direction": "Inbound",
+            "dueMinutes": "14"
+        },
+        {
+            "destination": "Test Stop 2",
+            "direction": "Outbound",
+            "dueMinutes": "4"
+        },
+        {
+            "destination": "Test Stop 2",
+            "direction": "Outbound",
+            "dueMinutes": "11"
+        },
+        {
+            "destination": "Test Stop 2",
+            "direction": "Outbound",
+            "dueMinutes": "18"
+        }
+    ]
+}

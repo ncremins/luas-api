@@ -93,7 +93,6 @@
 		, 'TPT'
 	);
 
-
 	/**
 	 * Return the contents of stations.json
 	 */
@@ -106,14 +105,17 @@
 		getStationTimes($station);
 		exit;
 	}
+    else if ($action == 'dummytimes') {
+       $json = file_get_contents('dummytimes.json');
+        echo $json;
+        exit; 
+    }
 	else {
 		$error = new stdClass();
 		$error->message = "Unknown station";
 		echo json_encode($error);
 		exit;
 	}
-
-
 
 	/**
 	 * $station should be a shortName from Stations.json
@@ -140,12 +142,11 @@
 			
 			$attribs = current($tram->attributes());
 
-			if ($attribs['dueMins'] > 0) {
+			if ($attribs['dueMins'] > 0 || $attribs['dueMins'] == "DUE") {
 				$timeEntry->dueMinutes = (string)$attribs['dueMins'];
 				$timeEntry->destination = (string)$attribs['destination'];
 				$time->trams[] = $timeEntry;
 			}
-			
 		}
 
 		foreach ($xml->direction[1]->tram as $key => $tram) {
@@ -154,7 +155,7 @@
 			
 			$attribs = current($tram->attributes());
 
-			if ($attribs['dueMins'] > 0) {
+			if ($attribs['dueMins'] > 0 || $attribs['dueMins'] == "DUE") {
 				$timeEntry->dueMinutes = (string)$attribs['dueMins'];
 				$timeEntry->destination = (string)$attribs['destination'];
 				$time->trams[] = $timeEntry;
