@@ -1,8 +1,8 @@
-Endpoint for getting Luas (Dublin light rail), times and geo-coded data.
+Endpoint for getting Luas (Dublin light rail), times, fares and geo-coded data.
 
-Updated to use a more simpler way of grabbing data from Luas' endpoint.
+Updated to use a simpler way of grabbing data from Luas' endpoint.
 
-This endpoint relies on http://www.luas.ie API endpoint and may break at any time, I will try my best to keep it updated.
+This endpoint relies on http://luasforecasts.rpa.ie API endpoint and may break at any time, I will try my best to keep it updated.
 
 A working example can be seen [here](http://luas.neilcremins.com?action=stations) and [here](http://luas.neilcremins.com?action=times&station=STS)
 
@@ -116,5 +116,17 @@ index.php?action=**dummytimes**
             "dueMinutes": "18"
         }
     ]
+}
+```
+
+Example #4: Get fares information based on origin stop, destination stop and number of adult and children passengers.
+
+index.php?action=**farecalc**&from=**ABB**&to=**RED**&adults=**2**&children=**0**
+
+```javascript
+{
+    "peak": "5.40",
+    "offpeak": "5.40",
+    "zonesTravelled": "3"
 }
 ```

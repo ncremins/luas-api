@@ -35,6 +35,10 @@
 
 	$action = $_REQUEST['action'];
 	$station = $_REQUEST['station'];
+	$farecalc_from = $_REQUEST['from'];
+	$farecalc_to = $_REQUEST['to'];
+	$farecalc_adults = $_REQUEST['adults'];
+	$farecalc_children = $_REQUEST['children'];
 
 	$stations = array (
 		  'BAL'
@@ -105,16 +109,50 @@
 		getStationTimes($station);
 		exit;
 	}
-    else if ($action == 'dummytimes') {
-       $json = file_get_contents('dummytimes.json');
-        echo $json;
-        exit; 
-    }
+	else if ($action == 'dummytimes') {
+		$json = file_get_contents('dummytimes.json');
+		echo $json;
+		exit;
+	}
+	else if ($action == 'farecalc') {
+		getFares($farecalc_from, $farecalc_to, $farecalc_adults, $farecalc_children);
+		exit;
+	}
 	else {
 		$error = new stdClass();
 		$error->message = "Unknown station";
 		echo json_encode($error);
 		exit;
+	}
+
+	/**
+	 * $farecalc_from and $farecalc_to should be a shortName from Stations.json
+	 * $farecalc_adults and $farecalc_children should be whole numbers (minimum 0 - in string format)
+	 */
+	function getFares($farecalc_from, $farecalc_to, $farecalc_adults, $farecalc_children) {
+		$queryParams = array(
+			  'encrypt' => 'false'
+			, 'from' => $farecalc_from
+			, 'to' => $farecalc_to
+			, 'adults' => $farecalc_adults
+			, 'children' => $farecalc_children
+			, 'action' => 'farecalc'
+		);
+
+		$baseUrl = 'http://luasforecasts.rpa.ie/xml/get.ashx';
+
+		$xmlContents = file_get_contents($baseUrl . '?' . http_build_query($queryParams));
+		$xml = simplexml_load_string($xmlContents);
+
+		$fares = new stdClass();
+
+		$attribs = $xml->result[0]->attributes();
+
+		$fares->peak = (string)$attribs['peak'];
+		$fares->offpeak = (string)$attribs['offpeak'];
+		$fares->zonesTravelled = (string)$attribs['zonesTravelled'];
+
+		echo json_encode($fares);
 	}
 
 	/**
